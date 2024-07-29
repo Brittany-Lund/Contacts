@@ -14,7 +14,7 @@
   border:1px solid black;
 }
 
-body {
+  body {
   background-color: lightblue;
 }
 </style>
@@ -36,7 +36,7 @@ body {
       output += `<tr><td>${index}:</td><td class="name">${item}</td></tr>`;
     }
     // inject table into html
-    document.getElementById(`ContactsArray`).innerHTML = `<table><tr><th>Slot #</th><th>Number</th>${output}</table>`;
+    document.getElementById(`ContactsArray`).innerHTML = `<table><tr><th>Slot #</th><th>Name</th>${output}</table>`;
   </script>
 
   <script>
