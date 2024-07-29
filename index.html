@@ -33,7 +33,7 @@
     let output = ``;
     contacts.forEach(showArray);
     function showArray(item, index) {
-      output += `<tr><td>${index}:</td><td class="name">${item}</td></tr>`;
+      output += `<tr><td>${index}</td><td class="name">${item}</td></tr>`;
     }
     // inject table into html
     document.getElementById(`ContactsArray`).innerHTML = `<table><tr><th>Slot #</th><th>Name</th>${output}</table>`;
